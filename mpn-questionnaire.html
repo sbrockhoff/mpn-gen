@@ -1,0 +1,21 @@
+<head>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="/mpn-questionnaire.js"></script>
+</head>
+<body>
+    <form id="mpnForm">
+        <h1>MPN-Gen</h1>
+        <h2>Use: How we use your data internally</h2>
+        We collect and use your <strong>identifiable data</strong>:<br />
+        <input type="checkbox" name="useOptions" value="primary">To provide the primary service of the app or technology<br />
+        <input type="checkbox" name="useOptions" value="marketing">To develop marketing materials for our products<br />
+        <input type="checkbox" name="useOptions" value="science">To conduct scientific research<br />
+        <input type="checkbox" name="useOptions" value="companyOps">For company operations (e.g. quality control or fraud detection)<br />
+        <input type="checkbox" name="useOptions" value="improvements">To develop and improve new and current products and services (e.g. analytics)<br />
+        <input type="checkbox" name="useOptions" value="Other">Other: <input type="text" name="useOther"><br />
+        <br />
+        <input type="submit" value="Test">
+    </form>
+
+    <div id="result"></div>
+</body>
