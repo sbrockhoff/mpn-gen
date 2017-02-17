@@ -7,15 +7,27 @@
         <h1>MPN-Gen</h1>
         <h2>Use: How we use your data internally</h2>
         We collect and use your <strong>identifiable data</strong>:<br />
-        <input type="checkbox" name="useOptions" value="primary">To provide the primary service of the app or technology<br />
-        <input type="checkbox" name="useOptions" value="marketing">To develop marketing materials for our products<br />
-        <input type="checkbox" name="useOptions" value="science">To conduct scientific research<br />
-        <input type="checkbox" name="useOptions" value="companyOps">For company operations (e.g. quality control or fraud detection)<br />
-        <input type="checkbox" name="useOptions" value="improvements">To develop and improve new and current products and services (e.g. analytics)<br />
-        <input type="checkbox" name="useOptions" value="Other">Other: <input type="text" name="useOther"><br />
+        <input type="checkbox" name="usePrimary" value="true">To provide the primary service of the app or technology<br />
+        <input type="checkbox" name="useMarketing" value="true">To develop marketing materials for our products<br />
+        <input type="checkbox" name="useScience" value="true">To conduct scientific research<br />
+        <input type="checkbox" name="useCompanyOps" value="true">For company operations (e.g. quality control or fraud detection)<br />
+        <input type="checkbox" name="useImprovements" value="true">To develop and improve new and current products and services (e.g. analytics)<br />
+        <input type="checkbox" name="useOther" value="Other">Other: <input type="text" name="useOtherText"><br />
+        <br />
+        
+        <h2>Share: How we share your data externally with other companies or entities</h2>
+        <input type="checkbox" name="sharePrimary" value="true">To provide the primary service of the app or technology<br />
+        <input type="checkbox" name="shareScience" value="true">To conduct scientific research<br />
+        <input type="checkbox" name="shareCompanyOps" value="true">For company operations (e.g. quality control or fraud detection)<br />
+        <input type="checkbox" name="shareImprovements" value="true">To develop and improve new and current products and services (e.g. analytics)<br />
+        <input type="checkbox" name="shareOther" value="true">Other: <input type="text" name="shareOtherText"><br />
+         <input type="checkbox" name="shareNone" value="true">We DO NOT share your identifiable data<br />
+        
+        <br />
         <br />
         <input type="submit" value="Test">
     </form>
 
+    <br />
     <div id="result"></div>
 </body>
