@@ -7,21 +7,41 @@
         <h1>MPN-Gen</h1>
         <h2>Use: How we use your data internally</h2>
         We collect and use your <strong>identifiable data</strong>:<br />
-        <input type="checkbox" name="usePrimary" value="true">To provide the primary service of the app or technology<br />
-        <input type="checkbox" name="useMarketing" value="true">To develop marketing materials for our products<br />
-        <input type="checkbox" name="useScience" value="true">To conduct scientific research<br />
-        <input type="checkbox" name="useCompanyOps" value="true">For company operations (e.g. quality control or fraud detection)<br />
-        <input type="checkbox" name="useImprovements" value="true">To develop and improve new and current products and services (e.g. analytics)<br />
-        <input type="checkbox" name="useOther" value="Other">Other: <input type="text" name="useOtherText"><br />
+        <input type="checkbox" name="usePrimary" value="Yes">To provide the primary service of the app or technology<br />
+        <input type="checkbox" name="useMarketing" value="Yes">To develop marketing materials for our products<br />
+        <input type="checkbox" name="useScience" value="Yes">To conduct scientific research<br />
+        <input type="checkbox" name="useCompanyOps" value="Yes">For company operations (e.g. quality control or fraud detection)<br />
+        <input type="checkbox" name="useImprovements" value="Yes">To develop and improve new and current products and services (e.g. analytics)<br />
+        <input type="checkbox" name="useOther" value="Yes">Other: <input type="text" name="useOtherText"><br />
         <br />
         
         <h2>Share: How we share your data externally with other companies or entities</h2>
-        <input type="checkbox" name="sharePrimary" value="true">To provide the primary service of the app or technology<br />
-        <input type="checkbox" name="shareScience" value="true">To conduct scientific research<br />
-        <input type="checkbox" name="shareCompanyOps" value="true">For company operations (e.g. quality control or fraud detection)<br />
-        <input type="checkbox" name="shareImprovements" value="true">To develop and improve new and current products and services (e.g. analytics)<br />
-        <input type="checkbox" name="shareOther" value="true">Other: <input type="text" name="shareOtherText"><br />
-         <input type="checkbox" name="shareNone" value="true">We DO NOT share your identifiable data<br />
+        <input type="checkbox" name="sharePrimary" value="Yes">To provide the primary service of the app or technology<br />
+        <input type="checkbox" name="shareScience" value="Yes">To conduct scientific research<br />
+        <input type="checkbox" name="shareCompanyOps" value="Yes">For company operations (e.g. quality control or fraud detection)<br />
+        <input type="checkbox" name="shareImprovements" value="Yes">To develop and improve new and current products and services (e.g. analytics)<br />
+        <input type="checkbox" name="shareOther" value="Yes">Other: <input type="text" name="shareOtherText"><br />
+        <input type="checkbox" name="shareNone" value="Yes">We DO NOT share your identifiable data<br />
+        <br />
+        <input type="checkbox" name="shareDeidentifiedPrimary" value="Yes">For the primary purposes of the app or technology<br />
+        <input type="checkbox" name="shareDeidentifiedScience" value="Yes">To conduct scientific research<br />
+        <input type="checkbox" name="shareDeidentifiedCompanyOps" value="Yes">For company operations (e.g. quality control or fraud detection)<br />
+        <input type="checkbox" name="shareDeidentifiedImprovements" value="Yes">To develop and improve new and current products and services (e.g. analytics)<br />
+        <input type="checkbox" name="shareDeidentifiedOther" value="Yes">Other: <input type="text" name="shareDeidentifiedOtherText"><br />
+        <input type="checkbox" name="shareDeidentifiedNone" value="Yes">We DO NOT share your data after removing identifiers<br />
+        <br />
+        
+        <h2>Sell: Who we sell your data to</h2>
+        We sell your <strong>identifiable data</strong> to data brokers, marketing, advertising networks, or analytics firms.<br />
+        <input type="radio" name="sellData" value="Yes">Yes<br />
+        <input type="radio" name="sellData" value="YesWithPermission">Yes; only with your permission<br />
+        <input type="radio" name="sellData" value="No">No<br />
+        <br />
+        We sell your <strong>data AFTER removing identifiers (note that remaining data may not be anonymous)</strong> to data brokers, marketing, advertising networks, or analytics firms.<br />
+        <input type="radio" name="sellDeidentifiedData" value="Yes">Yes<br />
+        <input type="radio" name="sellDeidentifiedData" value="YesWithPermission">Yes; only with your permission<br />
+        <input type="radio" name="sellDeidentifiedData" value="No">No<br />
+        
         
         <br />
         <br />
