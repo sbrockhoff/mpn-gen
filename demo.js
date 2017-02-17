@@ -1,5 +1,7 @@
-$( document ).ready(function() {
-    $( '#result' ).MpnGen({
+/*global $ */
+$(document).ready(function () {
+    'use strict';
+    $('#result').MpnGen({
         usePrimary: 'Yes',
         useScience: 'Yes',
         useOther: 'Yes',
